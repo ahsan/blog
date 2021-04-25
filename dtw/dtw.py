@@ -3,7 +3,7 @@ import math
 
 
 def distance(a: int, b: int) -> float:
-    return math.sqrt((b-a)**2)
+    return math.sqrt((b**2)-(a**2))
 
 
 def DTW(s: List[int], t: List[int]):
